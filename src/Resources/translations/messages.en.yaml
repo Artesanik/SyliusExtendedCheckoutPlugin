@@ -1,0 +1,5 @@
+artesanik_extended_checkout:
+  form:
+    address:
+      phone_number:
+        not_blank: Please set a valid phone number

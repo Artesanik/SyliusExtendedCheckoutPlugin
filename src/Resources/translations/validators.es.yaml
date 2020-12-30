@@ -1,0 +1,8 @@
+artesanik_extended_checkout:
+  form:
+    address:
+      phone_number:
+        not_blank: Por favor ingresar un número de teléfono válido
+        min_value: Su número de teléfono debe tener mínimo 10 dígitos
+        max_value: Su número de teléfono debe tener máximo 11 dígitos
+        regex: Su número de teléfono solo puede contener números

@@ -1,9 +1,9 @@
 {
-    "name": "sylius/plugin-skeleton",
+    "name": "artesanik/sylius-extended-checkout-plugin",
     "type": "sylius-plugin",
     "keywords": ["sylius", "sylius-plugin"],
-    "description": "Acme example plugin for Sylius.",
-    "license": "MIT",
+    "description": "Sylius Extended Checkout Plugin.",
+    "license": "LGPL-3.0-or-later",
     "require": {
         "php": "^7.3",
 
@@ -41,8 +41,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Acme\\SyliusExamplePlugin\\": "src/",
-            "Tests\\Acme\\SyliusExamplePlugin\\": "tests/"
+            "Artesanik\\SyliusExtendedCheckoutPlugin\\": "src/",
+            "Tests\\Artesanik\\SyliusExtendedCheckoutPlugin\\": "tests/"
         }
     },
     "autoload-dev": {
